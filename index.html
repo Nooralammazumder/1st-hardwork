@@ -58,6 +58,24 @@
    <blockquote cite="http://www.worldwildlife.org/who/index.html">
     For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
     </blockquote> -->
+    <h2>The optgroup element</h2>
+    <p>The optgroup tag is used to group related options in a drop-down list</p>
+    <form action="action.php">
+        <label for="cars">choose a car</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volbo">Volbo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+             <optgroup label="German Car">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                </optgroup>
+        </select>
+        <br><br>
+    <input type="submit" value="submit">
+    </form>
+    <br>
     <h1>The map and area elements</h1>
     <p>Click on the computer,the phone,or the cup of coffee to go to a new page and read more about the topic</p>
     <img src="workplace.jpg.jpg" 
@@ -77,6 +95,5 @@
         coords="337,300,44" alt="coffee cup"
         href="coffee.html">
     </map>
-
 </body>
 </html>
